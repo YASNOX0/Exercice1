@@ -1,9 +1,3 @@
-body {
-    padding: 40px;
-    margin-left: 260px;
-    margin-right: 260px;
-}
-
 .statement{
     background-color: rgb(250, 207, 179);
     border: 1px solid rgb(255, 150, 59);
@@ -28,3 +22,24 @@ span{
     font-weight: bolder;
 }
 
+li:hover {
+    background-color:rgb(250, 207, 179) ;
+    border: solid none 1px;
+    border-radius: 6px;
+}
+
+li{
+    padding: 6px;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 1200px;
+    position: fixed;
+}
+
+#content{
+    padding: 40px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
