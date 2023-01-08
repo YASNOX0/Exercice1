@@ -12,3 +12,14 @@ body {
     text-align: left;
     border-left-width: 3px;
 }
+
+.response::first-letter{
+    font-size: x-large;
+    font-weight: bolder;
+}
+
+.response{
+    text-align: justify;
+    padding-bottom: 13px;
+}
+
