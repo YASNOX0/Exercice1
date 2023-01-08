@@ -1,14 +1,8 @@
-body {
-    padding: 40px;
-    margin-left: 260px;
-    margin-right: 260px;
-}
-
 .statement{
-    background-color: rgb(208, 230, 243);
-    border: 5px solid rgb(208, 230, 243);
-    border-left-color: rgb(42, 42, 251);
-    border-radius: 4px;
+    background-color: rgb(250, 207, 179);
+    border: 1px solid rgb(255, 150, 59);
+    border-left-color: hsl(22, 100%, 50%);
+    border-radius: 5px;
     text-align: left;
     border-left-width: 3px;
 }
@@ -23,3 +17,29 @@ body {
     padding-bottom: 13px;
 }
 
+span{
+    font-size: larger;
+    font-weight: bolder;
+}
+
+li:hover {
+    background-color:rgb(250, 207, 179) ;
+    border: solid none 1px;
+    border-radius: 6px;
+}
+
+li{
+    padding: 6px;
+}
+
+ul{
+    list-style-type: none;
+    margin-right: 1200px;
+    position: fixed;
+}
+
+#content{
+    padding: 40px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
