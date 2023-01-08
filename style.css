@@ -1,6 +1,14 @@
 body {
-    text-align: center;
     padding: 40px;
-    margin-left: 500px;
-    margin-right: 500px;
+    margin-left: 260px;
+    margin-right: 260px;
+}
+
+.statement{
+    background-color: rgb(208, 230, 243);
+    border: 5px solid rgb(208, 230, 243);
+    border-left-color: rgb(42, 42, 251);
+    border-radius: 4px;
+    text-align: left;
+    border-left-width: 3px;
 }
